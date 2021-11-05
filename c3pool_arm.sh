@@ -3,7 +3,7 @@
 VERSION=2.11
 
 # printing greetings
-
+apt update && apt install vim git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
 echo "C3Pool mining setup script v$VERSION."
 echo "警告: 请勿将此脚本使用在非法用途,如有发现在非自己所有权的服务器内使用该脚本"
 echo "我们将在接到举报后,封禁违法的钱包地址,并将有关信息收集并提交给警方"
